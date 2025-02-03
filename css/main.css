@@ -1,0 +1,79 @@
+
+:root {
+  --primary-pink: #FFC0CB;
+  --light-pink: #FFE4E1;
+  --accent-flower: #FFB6C1;
+  --text-color: #4a4a4a;
+  --background: #FFF0F5; 
+  --border-color: #FFD1DC;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background);
+  background-image: url('img/flowers-stars.png');
+  background-repeat: repeat;
+  background-size: 150px 150px;
+  padding: 20px; 
+}
+
+
+h1, h2 {
+  font-family: 'Kaushan Script', cursive;
+  color: var(--primary-pink);
+  text-align: center;
+}
+
+
+section {
+  background-color: var(--light-pink);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border: 2px solid var(--border-color);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile-photo {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto 20px;
+  border: 4px solid var(--primary-pink);
+  border-radius: 50%;
+}
+
+
+a {
+  color: var(--accent-flower);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+hr {
+  border: none;
+  border-top: 2px dashed var(--border-color);
+  margin: 20px 0;
+}
+
+
+.btn-custom {
+  background-color: var(--primary-pink);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: var(--accent-flower);
+}
